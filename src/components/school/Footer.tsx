@@ -17,6 +17,7 @@ export function Footer() {
                   src="/images/logo-new.png"
                   alt="Edward Phatudi Logo"
                   fill
+                  sizes="(max-width: 640px) 56px, 64px"
                   className="object-contain transition-transform duration-300 group-hover:scale-110"
                 />
               </div>

@@ -68,6 +68,7 @@ export function Navigation() {
                     src="/images/logo-new.png"
                     alt="Edward Phatudi Logo"
                     fill
+                    sizes="(max-width: 1024px) 48px, 56px"
                     className="object-contain transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>

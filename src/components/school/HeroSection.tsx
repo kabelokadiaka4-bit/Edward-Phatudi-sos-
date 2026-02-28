@@ -99,6 +99,7 @@ export function HeroSection() {
               src="/images/logo-new.png"
               alt="Edward Phatudi School Logo"
               fill
+              sizes="(max-width: 640px) 112px, (max-width: 1024px) 128px, 160px"
               className="object-contain transition-transform duration-500 group-hover:scale-110"
               priority
             />
