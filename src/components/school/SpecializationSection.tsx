@@ -131,7 +131,7 @@ export function SpecializationSection() {
                 <ArrowRight className="ml-2 w-5 h-5 group-hover/btn:translate-x-1 transition-transform duration-300" />
               </Button>
             </div>
-            <div className="relative aspect-square max-w-md mx-auto">
+            <div className="relative aspect-square max-w-md mx-auto w-full h-full">
               {/* Animated orbits around the image */}
               <div className="absolute inset-0 border-2 border-cyan-500/20 rounded-full animate-spin-slowest" />
               <div className="absolute inset-4 border border-teal-500/15 rounded-full animate-spin-slowest" style={{ animationDirection: 'reverse', animationDuration: '30s' }} />
@@ -146,6 +146,7 @@ export function SpecializationSection() {
                 src="/images/nuclear-science.png"
                 alt="Nuclear Atom Model"
                 fill
+                sizes="(max-width: 768px) 100vw, 400px"
                 className="object-contain hover:scale-105 transition-transform duration-500"
               />
             </div>

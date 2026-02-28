@@ -73,6 +73,7 @@ export default function FacilitiesPage() {
             src="/images/science-lab.png"
             alt="School Facilities"
             fill
+            sizes="100vw"
             className="object-cover opacity-20"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0f] via-[#0a0a0f]/90 to-[#0a0a0f]" />
@@ -108,6 +109,7 @@ export default function FacilitiesPage() {
                   src="/images/science-lab.png"
                   alt="Presidential Science Laboratory"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#0a0a0f]/50 lg:to-[#0a0a0f]" />

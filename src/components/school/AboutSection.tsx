@@ -65,6 +65,7 @@ export function AboutSection() {
             width={1344}
             height={500}
             className="w-full h-64 md:h-[32rem] object-cover group-hover:scale-105 transition-transform duration-700"
+            priority
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0f] via-[#0a0a0f]/50 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-transparent to-transparent" />
