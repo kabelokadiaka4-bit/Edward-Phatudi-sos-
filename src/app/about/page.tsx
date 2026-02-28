@@ -45,6 +45,7 @@ export default function AboutPage() {
             src="/images/nuclear-science.png"
             alt="About Edward Phatudi"
             fill
+            sizes="100vw"
             className="object-cover opacity-20"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0f] via-[#0a0a0f]/90 to-[#0a0a0f]" />

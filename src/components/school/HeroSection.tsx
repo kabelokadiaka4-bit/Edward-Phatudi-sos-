@@ -102,6 +102,7 @@ export function HeroSection() {
               sizes="(max-width: 640px) 112px, (max-width: 1024px) 128px, 160px"
               className="object-contain transition-transform duration-500 group-hover:scale-110"
               priority
+              loading="eager"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-teal-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             {/* Logo Glow Effect */}
